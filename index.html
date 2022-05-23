@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Intro section with dropdown navigation solution</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <!-- deem page  -->
+     <div class="deem">
+
+    </div>
+       <!-- navbar and navbar items  -->
+    <nav class="navbar">
+     <div class="nav-item logo">
+         <img src="images/logo.svg" alt="">
+     </div>
+   <div class="main-items"> 
+     <div  class="nav-item item1">
+         <a class="link feat nav-hover" href="#">Features</a>
+         <img class="down" src="images/icon-arrow-down.svg" alt="">
+         <img class="up" src="images/icon-arrow-up.svg" alt="">
+     </div>
+     <div  class="nav-item item1">
+         <a class="link nav-hover" href="#">Company</a>
+         <img class="down2" src="images/icon-arrow-down.svg" alt="">
+         <img class="up2" src="images/icon-arrow-up.svg" alt="">
+     </div>
+     <div  class="nav-item item1">
+         <a class="link" href="#">Careers</a>
+     </div>
+     <div  class="nav-item item1">
+         <a class="link nav-hover" href="#">About</a>
+     </div>
+    </div>  
+     
+     <div class="nav-item2">
+         <a class="link login nav-hover" href="#">Login</a>
+         <button class="register">Register</button>
+     </div>
+      <!-- menu icon  -->
+     <div class="nav-menu">
+         <img class="menu" src="images/icon-menu.svg" alt="">
+     </div>
+    </nav>
+      
+             <!-- large image for mobile phone  -->
+       <div >
+           <img class="main-img" src="images/image-hero-mobile.png" alt="">
+       </div>
+
+       <!-- features dropdown  -->
+       <div class="features-drop">
+           <div  class="item feat-img"><img src="images/icon-todo.svg" alt=""></div>
+           <div  class="item">Todo List</div>
+           <div  class="item feat-img"><img src="images/icon-calendar.svg" alt=""></div>
+           <div  class="item">Calendar</div>
+           <div  class="item feat-img"><img src="images/icon-reminders.svg" alt=""></div>
+           <div  class="item">Reminders</div>
+           <div  class="item feat-img"><img src="images/icon-planning.svg" alt=""></div>
+           <div  class="item">Planning</div>
+       </div>
+
+         <!-- company drop dwon  -->
+       <div class="company-drop">
+         <div>History</div>
+         <div>Our Team</div>
+         <div>Blog</div>
+       </div>
+
+          <!-- body contents  -->
+    <section class="features">
+        <div class="description">
+          <div class="text">
+             <h1>Make remote work</h1>
+             <p>Get your team in sync, no matter your location. streamline processes, create team rituals, and watch productivity soar.</p>
+                 <button class="btn">Learn more</button>   
+
+             <div class="specification">
+              <div>
+                  <img class="spec-img"  src="images/client-databiz.svg" alt="">
+              </div>
+              <div>
+                  <img class="spec-img" src="images/client-audiophile.svg" alt="">
+              </div>
+              <div>
+                  <img class="spec-img" src="images/client-meet.svg" alt="">
+              </div>
+              <div>
+                  <img class="spec-img" src="images/client-maker.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+              <!-- large image for desktop  -->
+        <div class="large-image-section">
+            <img class="large-img" src="images/image-hero-desktop.png" alt="">
+        </div>
+    </section>
+
+          <!-- slide bar section for smaller screen  -->
+<div class="slide-bar">
+    <img id="close-menu" src="images/icon-close-menu.svg" alt="">
+    <ul>
+      <li><a href="#" class="navlink slide-link">Features</a>
+        <img class="mobile-down1" src="images/icon-arrow-down.svg" alt="">
+        <img class="mobile-up1" src="images/icon-arrow-up.svg" alt="">
+    </li>
+    <!-- mobile features drop down  -->
+    <div class="mobile-features-drop">
+        <div class="mobile-feat-img"><img src="images/icon-todo.svg" alt=""></div>
+        <div>Todo List</div>
+        <div  class="mobile-feat-img"><img src="images/icon-calendar.svg" alt=""></div>
+        <div>Calendar</div>
+        <div  class="mobile-feat-img"><img src="images/icon-reminders.svg" alt=""></div>
+        <div>Reminders</div>
+        <div  class="mobile-feat-img"><img src="images/icon-planning.svg" alt=""></div>
+        <div>Planning</div>
+     </div>
+      <li><a href="#" class="navlink slide-link">company</a>
+        <img class="mobile-down2" src="images/icon-arrow-down.svg" alt="">
+        <img class="mobile-up2" src="images/icon-arrow-up.svg" alt="">
+    </li>
+      <!-- mobile company drop down  -->
+    <div class="mobile-company-drop">
+        <div class="mobile-comp-img">History</div>
+        <div class="mobile-comp-img">Our Team</div>
+        <div class="mobile-comp-img">Blog</div>
+      </div>
+      <li><a href="#" class="navlink slide-link">Careers</a></li>
+      <li><a href="#" class="navlink slide-link">About</a></li>
+      <div class="login-reg">
+         <a class="mobile-login" href="#">Login</a>
+         <button class="mobile-register">Register</button>
+      </div>
+     </ul>
+  </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
